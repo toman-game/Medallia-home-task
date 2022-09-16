@@ -1,0 +1,40 @@
+.page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #272834;
+  color: white;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #393a4b;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    margin: 0;
+    font-size: 19px;
+  }
+
+  button  {
+    background-color: #222231;
+    color: white;
+    padding: 10px 17px;
+    border-radius: 6px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    &:hover {
+      background-color: #171721;
+    }
+  }
+}

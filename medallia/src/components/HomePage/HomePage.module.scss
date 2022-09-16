@@ -1,0 +1,21 @@
+.title {
+  margin: 0;
+  font-size: 40px;
+}
+
+.subtitle {
+  font-size: 21px;
+  margin: 20px 0 40px 0;
+}
+
+.btn {
+  font-size: 20px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  background: #393a4b;
+  color: white;
+  padding: 15px 20px;
+  &:hover {
+    background: transparent;
+  }
+}
